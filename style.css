@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: gilroy;
+    background-position: center;
+}
+.frist{
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    background-color: rgba(216, 239, 240, 0.514);
+    left: 20%;
+    position: relative;
+    top: 25%;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(4, 231, 4, 0.699);
+}
+.left > i{
+    font-size: 110px;
+    font-weight: 100;
+    margin: 0 20px;
+    color: white;
+}
+.frist > h1{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 10px 5%;
+    
+}
+.frist >h2{
+    color: white;
+    margin: 40px -150px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bu{
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    left: 50%;
+    margin: 80px;
+}
+.bu > button{
+    padding: 5px 30px;
+    border-radius: 2px;
+    border-color: transparent;
+    box-shadow: 0 0 10px rgb(43, 40, 40);
+    background-color: transparent;
+    color: green;
+}
+.oops{
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    background-color: rgba(96, 226, 233, 0.849);
+    left: 20%;
+    top: 60%;
+}
+.right{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.582);
+}
+.right > i{
+    font-size: 110px;
+    font-weight: 100;
+    margin: 0 20px;
+    color: white;
+}
+.oops > h1{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 10px 5%;
+    
+}
+.oops >h2{
+    color: white;
+    margin: 40px -130px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.butt{
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    left: 50%;
+    margin: 80px;
+    top: 60%;   
+}
+.butt > button{
+    padding: 5px 30px;
+    border-radius: 2px;
+    border-color: transparent;
+    box-shadow: 0 0 10px rgb(43, 40, 40);
+    background-color: transparent;
+    color: green;
+}
